@@ -47,3 +47,36 @@ Time:        1.223 s, estimated 4 s
 Ran all test suites related to changed files.
 
 ```
+
+# Suggestions for Improvement
+    - To make the Proof of Reserve Web API into a production-grade service, several improvements can be made in areas like scalability, reliability, maintainability, security, observability, and performance.
+
+### Scalability
+    - Precompute and cache Merkle tree & proofs
+    - Persist precomputed data
+
+### Reliability
+    - Scheduled Rebuild using Cron Jobs
+    - Failure Fallback
+
+### Security
+    - Enforce HTTPS
+    - Rate limiting
+    - Authentication & Authorization
+    - Input validation
+
+### Monitoring & Observability
+    - Logging
+    - Metrics
+    - Health Checks
+
+### Maintainability
+    - Versioning
+    - Test Coverage
+    - Documentation
+    - CI/CD Pipeline
+
+### Deployment & Infrastructure
+    - Docerize the app
+    - Use a Reverse Proxy
+    - Use Distributed Cache
